@@ -1,0 +1,108 @@
+/* The following line can be included in a src/App.scss */
+@import '~bootstrap/scss/bootstrap';
+
+* {
+padding:0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.sec_header {
+.mainheader {
+    background-color: #25262B;
+    padding: 0% 15% 1% 4.7%;
+    display: flex;
+
+
+    
+  }
+  .btmheader{
+padding: 0 15% 1% 12%;
+
+  }
+}
+
+.topads{
+display:flex;
+    flex-direction: row;
+    justify-content: center;
+
+background-color: rgb(0, 0, 0);
+color: #fff;
+
+.topads2 Svg {
+
+    margin-right: 5px;
+  }
+
+.topads1{
+
+  margin-right: 15px;
+}
+.topads1 Svg {
+
+    margin-right: 5px;
+}
+
+
+
+
+
+}
+
+.mainheader{
+display:flex;
+
+flex-direction: row;
+align-items:center;
+  background-color:#25262B;
+
+  .logoimg{
+
+padding-left: 10%;
+  }
+  .together {
+  
+      align-items: center;
+      display: flex;
+
+  
+    }
+
+    .together_loc{
+      flex:0.5;
+      padding-left: 2%;
+    }
+.view2{
+display: flex;
+padding-left: 1%;
+padding-right: 1%;
+// width: 60%;
+flex:1.2;
+justify-content: space-around;
+padding-left: 1%;
+// background-color: aqua;
+.together {
+
+    align-items: center;
+    display: flex;
+
+  }
+}
+ 
+}
+
+.btmheader{
+  background-color: #25262B;
+display: flex;
+
+
+justify-content: space-around;
+
+a{color: #fff;}
+a:link{
+  text-decoration: none;
+ 
+}
+
+}

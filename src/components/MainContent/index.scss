@@ -1,0 +1,40 @@
+.main {
+  padding: 0% 10% 10% 10%;
+  width: 100%;
+  align-items: center;
+  .section {
+    h3 {
+      justify-content: center;
+      padding-top: 2%;
+      display: flex;
+      color: #003366;
+    }
+
+    .images {
+      padding-top: 10%;
+      display: grid;
+      grid-template-columns: auto auto auto auto auto ;
+      grid-gap: 80px;
+      align-items: center;
+      justify-content: center;
+      //  background-color: aqua;
+      flex: 1;
+      .imagecontainer {
+        display: flex;
+            flex-direction: column;
+            align-items: center;
+      }
+
+      img {
+        object-fit: cover;
+      }
+      a {
+        font-weight: 600;
+      }
+
+      a:hover {
+        color: pink;
+      }
+    }
+  }
+}
